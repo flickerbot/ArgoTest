@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: file:///tmp/helm-charts  # For demo, would be a Git repo in production
+    repoURL: https://github.com/flickerbot/ArgoTest.git  
     targetRevision: HEAD
-    path: simple-app
+    path: Terraform/helm-charts/App
     helm:
       valueFiles:
         - values.yaml
