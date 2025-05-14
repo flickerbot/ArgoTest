@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/flickerbot/ArgoTest.git  
     targetRevision: HEAD
-    path: Terraform/helm-charts/App
+    path: Terraform/helm-charts/simple-app
     helm:
       valueFiles:
         - values.yaml
