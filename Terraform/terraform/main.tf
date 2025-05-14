@@ -39,7 +39,7 @@ module "app2" {
   create_resources = true
   app_name         = "app2"
   namespace        = kubernetes_namespace.apps.metadata[0].name
-  image            = "nginx:1.20"
+  image            = "nginx:1.21"
   replicas         = 1
   port             = 80
   environment      = "dev"
